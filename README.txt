@@ -1,5 +1,6 @@
 READ_ME.txt
 
+Open "index.html" to view the website, but please note the following...
 ******************************
 IMPORTANT
 
@@ -13,7 +14,7 @@ please open and then close the following files:
 - "SalesPitch.pdf"
 - "transitions.js"
 
-Then re-open "index.html" and the problems should be resolved.
+This should resolve the formatting issues, then re-open "index.html".
 ******************************
 
 Contents:
