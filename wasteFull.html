@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+    <div>
+        WasteFull Interactive Website
+    </div>
+
+    <link rel="stylesheet" href="wasteStyle.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript" charset="utf-8">
+    </script>
+    <body>
+        <form action="https://api.particle.io/v1/devices/250037000647373034353237/setBinHgt?access_token=75d4a7d82951be2a312d413b89f67f51e8913b8e" method="POST">
+            <p>Enter the height of your trashcan.
+            <br><input type="submit" value="Set Height">
+            <input type="text" name="args" value="50">cm
+            </p>
+        </form>
+        <form action="https://api.particle.io/v1/devices/250037000647373034353237/setMaxCap?access_token=75d4a7d82951be2a312d413b89f67f51e8913b8e" method="POST">
+            <p>Change the capacity that must be reached for the photon to send a notification.
+                <br><input type="submit" value="Set Capacity">
+                <input type="text" name="args" value="90">%
+            </p>
+        </form>
+    </body>
+</html>
